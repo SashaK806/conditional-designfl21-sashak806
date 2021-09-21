@@ -204,5 +204,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
             document.body.append(createImg);
         }
     }
-    setTimeout("location.reload(true);", 2800);
+    //reload on click instead
+    // setTimeout("location.reload(true);", 2000800); //maybe doesn't have to be arbitrary?
 });
+
+//to load, my github pages file w/ my path - /random2/index.html
