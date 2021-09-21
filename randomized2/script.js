@@ -182,22 +182,26 @@ window.addEventListener("DOMContentLoaded", (event) => {
     console.log(count);
     document.getElementById("currentSetLabel").innerHTML=namesList[count];
     for (let i=0; i < arrayList[count].length; i++){
-        console.log(arrayList[count][i]);
-        let createImg = document.createElement("div");
-        createImg.style.backgroundImage = "url("+arrayList[count][i]+")";
-        createImg.style.backgroundRepeat = "no-repeat";
-        createImg.style.position = "absolute";
-        let leftMargin = Math.random()*80+1 + "vw";
-        let topMargin = Math.random()*45+1 + "vh";
-        createImg.style.marginLeft = leftMargin;
-        createImg.style.marginTop = topMargin;
-        min = Math.ceil(500);
-        max = Math.floor(600);
-        createImg.style.height = Math.floor(Math.random() * (max - min) + min) + "px";
-        createImg.style.width = Math.floor(Math.random() * (max - min) + min) + "px";
-        createImg.style.backgroundSize = "50%";
-        createImg.style.opacity = "65%";
-        document.body.append(createImg);
+        if (i==0){
+            continue;
+        } else {
+            console.log(arrayList[count][i]);
+            let createImg = document.createElement("div");
+            createImg.style.backgroundImage = "url("+arrayList[count][i]+")";
+            createImg.style.backgroundRepeat = "no-repeat";
+            createImg.style.position = "absolute";
+            let leftMargin = Math.random()*80+1 + "vw";
+            let topMargin = Math.random()*45+1 + "vh";
+            createImg.style.marginLeft = leftMargin;
+            createImg.style.marginTop = topMargin;
+            min = Math.ceil(500);
+            max = Math.floor(600);
+            createImg.style.height = Math.floor(Math.random() * (max - min) + min) + "px";
+            createImg.style.width = Math.floor(Math.random() * (max - min) + min) + "px";
+            createImg.style.backgroundSize = "50%";
+            createImg.style.opacity = "65%";
+            document.body.append(createImg);
+        }
     }
-    setTimeout("location.reload(true);", 100);
+    setTimeout("location.reload(true);", 1500);
 });
