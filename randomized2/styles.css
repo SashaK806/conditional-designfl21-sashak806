@@ -1,0 +1,28 @@
+html {
+    background-color: black;
+}
+body {
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 100%;
+    color: white;
+}
+
+#randomColor {
+    opacity: 70%;
+}
+
+#currentSetLabel {
+    color: white;
+    width: 80%;
+    font-size: 1500%;
+    opacity: 70%;
+    font-weight: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
