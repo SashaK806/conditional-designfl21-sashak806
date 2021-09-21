@@ -175,6 +175,7 @@ const arrayList = [africaCapeAr, americasAr, arabiaAr, basketballAr, buddhtemple
 const namesList = ["south african cape", "the americas", "arabian peninsula", "basketball court", "buddhist temple", "children's carpet", "st. basil's cathedral", "chicago", "china", "colorado roads", "the cosmos", "southeast asia", "europe", "hawaii coast", "the himalayas", "ikea", "mecca", "mecca+", "the moon", "new york city", "the pentagon", "pool", "great barrier reef", "south america", "track"];
 
 window.addEventListener("DOMContentLoaded", (event) => {
+    document.body.style.overflow = "hidden"
     let count = Math.round(Math.random()*arrayList.length);
     if (count == 25){
         count = 24;
