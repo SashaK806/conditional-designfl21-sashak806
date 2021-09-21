@@ -46,37 +46,37 @@ const cathedralAr = [
 ];
 const chicagoAr = [
     "./images/chicago.jpg",
-    "./images/chicago2.jpg",
-    "./images/chicago3.jpg"
+    "./images/chicago2.jpeg",
+    "./images/chicago3.jpeg"
 ];
 const chinaAr = [
     "./images/china.jpg",
-    "./images/china2.jpg",
-    "./images/china3.jpg"
+    "./images/china2.jpeg",
+    "./images/china3.jpeg"
 ];
 const coloradoAr = [
     "./images/colorado.jpg",
-    "./images/colorado2.jpg",
-    "./images/colorado3.jpg"
+    "./images/colorado2.jpeg",
+    "./images/colorado3.jpeg"
 ];
 const cosmosAr = [
     "./images/cosmos.jpg",
-    "./images/cosmos2.jpg",
-    "./images/cosmos3.jpg",
-    "./images/cosmos4.jpg",
-    "./images/cosmos5.jpg"
+    "./images/cosmos2.jpeg",
+    "./images/cosmos3.jpeg",
+    "./images/cosmos4.jpeg",
+    "./images/cosmos5.jpeg"
 ];
 const eastAsiaAr = [
     "./images/eastAsia.jpg",
-    "./images/eastAsia2.jpg",
-    "./images/eastAsia3.jpg"
+    "./images/eastAsia2.jpeg",
+    "./images/eastAsia3.jpeg"
 ];
 const europeMapAr = [
     "./images/europeMap.jpg",
-    "./images/europeMap2.jpg",
-    "./images/europeMap3.jpg",
-    "./images/europeMap4.jpg",
-    "./images/europeMap5.jpg"
+    "./images/europeMap2.jpeg",
+    "./images/europeMap3.jpeg",
+    "./images/europeMap4.jpeg",
+    "./images/europeMap5.jpeg"
 ];
 const hawaiiAr = [
     "./images/hawaii.jpeg",
@@ -86,25 +86,25 @@ const hawaiiAr = [
 ];
 const himalayasAr = [
     "./images/himalayas.jpg",
-    "./images/himalayas2.jpg",
-    "./images/himalayas3.jpg",
-    "./images/himalayas4.jpg",
-    "./images/himalayas5.jpg",
-    "./images/himalayas6.jpg",
-    "./images/himalayas7.jpg"
+    "./images/himalayas2.jpeg",
+    "./images/himalayas3.jpeg",
+    "./images/himalayas4.jpeg",
+    "./images/himalayas5.jpeg",
+    "./images/himalayas6.jpeg",
+    "./images/himalayas7.jpeg"
 ];
 const ikeaAr = [
     "./images/ikea.jpg",
-    "./images/ikea2.jpg",
-    "./images/ikea3.jpg"
+    "./images/ikea2.jpeg",
+    "./images/ikea3.jpeg"
 ];
 const meccaAr = [
     "./images/mecca.jpg",
-    "./images/mecca2.jpg",
-    "./images/mecca3.jpg",
-    "./images/mecca4.jpg",
-    "./images/mecca5.jpg",
-    "./images/mecca6.jpg"
+    "./images/mecca2.jpeg",
+    "./images/mecca3.jpeg",
+    "./images/mecca4.jpeg",
+    "./images/mecca5.jpeg",
+    "./images/mecca6.jpeg"
 ];
 const meccabAr = [
     "./images/meccab.jpeg",
@@ -114,61 +114,61 @@ const meccabAr = [
 ];
 const moonAr = [
     "./images/moon.jpg",
-    "./images/moon2.jpg",
-    "./images/moon3.jpg"
+    "./images/moon2.jpeg",
+    "./images/moon3.jpeg"
 ];
 const nycAr = [
     "./images/nyc.jpg",
-    "./images/nyc2.jpg",
-    "./images/nyc3.jpg",
-    "./images/nyc4.jpg",
-    "./images/nyc5.jpg",
-    "./images/nyc7.jpg",
-    "./images/nyc8.jpg",
-    "./images/nyc9.jpg"
+    "./images/nyc2.jpeg",
+    "./images/nyc3.jpeg",
+    "./images/nyc4.jpeg",
+    "./images/nyc5.jpeg",
+    "./images/nyc7.jpeg",
+    "./images/nyc8.jpeg",
+    "./images/nyc9.jpeg"
 ];
 const pentagonAr = [
     "./images/pentagon.jpg",
-    "./images/pentagon2.jpg",
-    "./images/pentagon3.jpg",
-    "./images/pentagon4.jpg",
-    "./images/pentagon5.jpg"
+    "./images/pentagon2.jpeg",
+    "./images/pentagon3.jpeg",
+    "./images/pentagon4.jpeg",
+    "./images/pentagon5.jpeg"
 ];
 const poolAr = [
     "./images/pool.jpg",
-    "./images/pool2.jpg",
-    "./images/pool3.jpg",
-    "./images/pool4.jpg"
+    "./images/pool2.jpeg",
+    "./images/pool3.jpeg",
+    "./images/pool4.jpeg"
 ];
 const reefAr = [
     "./images/reef.jpg",
-    "./images/reef2.jpg",
-    "./images/reef3.jpg",
-    "./images/reef4.jpg",
-    "./images/reef5.jpg",
-    "./images/reef6.jpg",
-    "./images/reef7.jpg",
-    "./images/reef8.jpg",
-    "./images/reef9.jpg",
-    "./images/reef10.jpg",
-    "./images/reef11.jpg",
-    "./images/reef12.jpg",
-    "./images/reef13.jpg",
-    "./images/reef14.jpg"
+    "./images/reef2.jpeg",
+    "./images/reef3.jpeg",
+    "./images/reef4.jpeg",
+    "./images/reef5.jpeg",
+    "./images/reef6.jpeg",
+    "./images/reef7.jpeg",
+    "./images/reef8.jpeg",
+    "./images/reef9.jpeg",
+    "./images/reef10.jpeg",
+    "./images/reef11.jpeg",
+    "./images/reef12.jpeg",
+    "./images/reef13.jpeg",
+    "./images/reef14.jpeg"
 ];
 const samericaAr = [
     "./images/samerica.jpg",
-    "./images/samerica2.jpg",
-    "./images/samerica3.jpg",
-    "./images/samerica4.jpg",
-    "./images/samerica5.jpg",
-    "./images/samerica6.jpg",
-    "./images/samerica7.jpg"
+    "./images/samerica2.jpeg",
+    "./images/samerica3.jpeg",
+    "./images/samerica4.jpeg",
+    "./images/samerica5.jpeg",
+    "./images/samerica6.jpeg",
+    "./images/samerica7.jpeg"
 ];
 const trackAr = [
     "./images/track.jpg",
-    "./images/track2.jpg",
-    "./images/track3.jpg"
+    "./images/track2.jpeg",
+    "./images/track3.jpeg"
 ]
 
 const arrayList = [africaCapeAr, americasAr, arabiaAr, basketballAr, buddhtempleAr, carpetAr, cathedralAr, chicagoAr, chinaAr, coloradoAr, cosmosAr, eastAsiaAr, europeMapAr, hawaiiAr, himalayasAr, ikeaAr, meccaAr, meccabAr, moonAr, nycAr, pentagonAr, poolAr, reefAr, samericaAr, trackAr];
@@ -182,6 +182,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
     console.log(count);
     document.getElementById("currentSetLabel").innerHTML=namesList[count];
+    document.getElementById("currentSetLabel").setAttribute
     for (let i=0; i < arrayList[count].length; i++){
         if (i==0){
             continue;
