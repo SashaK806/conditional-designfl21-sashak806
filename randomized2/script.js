@@ -203,5 +203,5 @@ window.addEventListener("DOMContentLoaded", (event) => {
             document.body.append(createImg);
         }
     }
-    setTimeout("location.reload(true);", 1900);
+    setTimeout("location.reload(true);", 2300);
 });
