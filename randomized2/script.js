@@ -184,31 +184,28 @@ window.addEventListener("DOMContentLoaded", (event) => {
     console.log(count);
     document.getElementById("currentSetLabel").innerHTML=namesList[count];
     if(count == 0 || count == 6 || count == 22){ //if long text, decrease font size
-        document.getElementById("currentSetLabel").style.fontSize = "1300%";
+        document.getElementById("currentSetLabel").style.fontSize = "11vw";
+        document.getElementById("currentSetLabel").style.width = "60vw";
     } else {
-        document.getElementById("currentSetLabel").style.fontSize = "1500%";
+        document.getElementById("currentSetLabel").style.fontSize = "16vw";
     }
-    for (let i=0; i < arrayList[count].length; i++){
-        if (i==0){
-            continue;
-        } else {
-            console.log(arrayList[count][i]);
-            let createImg = document.createElement("div");
-            createImg.style.backgroundImage = "url("+arrayList[count][i]+")";
-            createImg.style.backgroundRepeat = "no-repeat";
-            createImg.style.position = "absolute";
-            let leftMargin = Math.random()*80+1 + "vw";
-            let topMargin = Math.random()*45+1 + "vh";
-            createImg.style.marginLeft = leftMargin;
-            createImg.style.marginTop = topMargin;
-            min = Math.ceil(250);
-            max = Math.floor(650);
-            createImg.style.height = Math.floor(Math.random() * (max - min) + min) + "px";
-            createImg.style.width = Math.floor(Math.random() * (max - min) + min) + "px";
-            createImg.style.backgroundSize = "50%";
-            createImg.style.opacity = "65%";
-            document.body.append(createImg);
-        }
+    for (let i=1; i < arrayList[count].length; i++){
+        console.log(arrayList[count][i]);
+        let createImg = document.createElement("div");
+        createImg.style.backgroundImage = "url("+arrayList[count][i]+")";
+        createImg.style.backgroundRepeat = "no-repeat";
+        createImg.style.position = "absolute";
+        let leftMargin = Math.random()*80+1 + "vw";
+        let topMargin = Math.random()*45+1 + "vh";
+        createImg.style.marginLeft = leftMargin;
+        createImg.style.marginTop = topMargin;
+        min = 250;
+        max = 650;
+        createImg.style.height = Math.floor(Math.random() * (max - min) + min) + "px";
+        createImg.style.width = Math.floor(Math.random() * (max - min) + min) + "px";
+        createImg.style.backgroundSize = "50%";
+        createImg.style.opacity = "65%";
+        document.body.append(createImg);
     }
 
     document.body.addEventListener("click", function() {
