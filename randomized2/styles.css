@@ -3,7 +3,7 @@ html {
 }
 body {
     position: relative;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-size: 100%;
     color: white;
@@ -15,12 +15,9 @@ body {
 
 #currentSetLabel {
     color: white;
-    width: 80%;
-    font-size: 1170%;
     opacity: 70%;
-    font-weight: 999;
     position: absolute;
-    top: 1%;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;

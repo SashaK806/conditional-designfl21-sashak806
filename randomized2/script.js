@@ -173,17 +173,21 @@ const trackAr = [
 
 const arrayList = [africaCapeAr, americasAr, arabiaAr, basketballAr, buddhtempleAr, carpetAr, cathedralAr, chicagoAr, chinaAr, coloradoAr, cosmosAr, eastAsiaAr, europeMapAr, hawaiiAr, himalayasAr, ikeaAr, meccaAr, meccabAr, moonAr, nycAr, pentagonAr, poolAr, reefAr, samericaAr, trackAr];
 const namesList = ["south-african cape", "the americas", "arabian peninsula", "basketball court", "buddhist temple", "children's carpet", "st. basil's cathedral", "chicago", "china", "colorado roads", "the cosmos", "southeast asia", "europe", "hawaii coast", "the himalayas", "ikea", "mecca", "mecca", "the moon", "new york city", "the pentagon", "pool", "great barrier reef", "south america", "track"];
-let clicked = false;
 
 window.addEventListener("DOMContentLoaded", (event) => {
     document.body.style.overflow = "hidden"
+    document.body.style.cursor = "pointer";
     let count = Math.round(Math.random()*arrayList.length);
     if (count == 25){
         count = 24;
     }
     console.log(count);
     document.getElementById("currentSetLabel").innerHTML=namesList[count];
-    document.getElementById("currentSetLabel").setAttribute
+    if(count == 0 || count == 6 || count == 22){ //if long text, decrease font size
+        document.getElementById("currentSetLabel").style.fontSize = "1300%";
+    } else {
+        document.getElementById("currentSetLabel").style.fontSize = "1500%";
+    }
     for (let i=0; i < arrayList[count].length; i++){
         if (i==0){
             continue;
@@ -208,13 +212,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
 
     document.body.addEventListener("click", function() {
-        click = true;
         location.reload(true);
-        // click = false;
-    }
-    );
-    //reload on click instead
-    // setTimeout("location.reload(true);", 2000800); //maybe doesn't have to be arbitrary?
+    });
 });
-
-//to load, my github pages file w/ my path - /random2/index.html
