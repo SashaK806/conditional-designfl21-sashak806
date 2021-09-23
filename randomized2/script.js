@@ -172,7 +172,8 @@ const trackAr = [
 ]
 
 const arrayList = [africaCapeAr, americasAr, arabiaAr, basketballAr, buddhtempleAr, carpetAr, cathedralAr, chicagoAr, chinaAr, coloradoAr, cosmosAr, eastAsiaAr, europeMapAr, hawaiiAr, himalayasAr, ikeaAr, meccaAr, meccabAr, moonAr, nycAr, pentagonAr, poolAr, reefAr, samericaAr, trackAr];
-const namesList = ["south african cape", "the americas", "arabian peninsula", "basketball court", "buddhist temple", "children's carpet", "st. basil's cathedral", "chicago", "china", "colorado roads", "the cosmos", "southeast asia", "europe", "hawaii coast", "the himalayas", "ikea", "mecca", "mecca+", "the moon", "new york city", "the pentagon", "pool", "great barrier reef", "south america", "track"];
+const namesList = ["south-african cape", "the americas", "arabian peninsula", "basketball court", "buddhist temple", "children's carpet", "st. basil's cathedral", "chicago", "china", "colorado roads", "the cosmos", "southeast asia", "europe", "hawaii coast", "the himalayas", "ikea", "mecca", "mecca", "the moon", "new york city", "the pentagon", "pool", "great barrier reef", "south america", "track"];
+let clicked = false;
 
 window.addEventListener("DOMContentLoaded", (event) => {
     document.body.style.overflow = "hidden"
@@ -196,8 +197,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
             let topMargin = Math.random()*45+1 + "vh";
             createImg.style.marginLeft = leftMargin;
             createImg.style.marginTop = topMargin;
-            min = Math.ceil(500);
-            max = Math.floor(600);
+            min = Math.ceil(250);
+            max = Math.floor(650);
             createImg.style.height = Math.floor(Math.random() * (max - min) + min) + "px";
             createImg.style.width = Math.floor(Math.random() * (max - min) + min) + "px";
             createImg.style.backgroundSize = "50%";
@@ -205,6 +206,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
             document.body.append(createImg);
         }
     }
+
+    document.body.addEventListener("click", function() {
+        click = true;
+        location.reload(true);
+        // click = false;
+    }
+    );
     //reload on click instead
     // setTimeout("location.reload(true);", 2000800); //maybe doesn't have to be arbitrary?
 });
