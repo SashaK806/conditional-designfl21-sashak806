@@ -1,4 +1,3 @@
-//"./images/africaCape.jpg" - forward slash, ./images/filenamehere
 const africaCapeAr = [
     "./images/africaCape.jpg",
     "./images/africaCape2.jpeg",
